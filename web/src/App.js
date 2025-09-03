@@ -5,6 +5,7 @@ import ImageUpload from './components/ImageUpload';
 import DetectionResults from './components/DetectionResults';
 import Header from './components/Header';
 import Stats from './components/Stats';
+import { buildApiUrl } from './config';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -26,7 +27,7 @@ function App() {
 
     try {
       const startTime = Date.now();
-      const response = await fetch('/api/upload', {
+      const response = await fetch(buildApiUrl('/api/upload'), {
         method: 'POST',
         body: formData,
       });
