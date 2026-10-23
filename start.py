@@ -187,7 +187,11 @@ def main():
         sys.path.insert(0, os.path.join(os.getcwd(), 'YOLOv10'))
         
         from app import app
-        app.run(debug=True, host='0.0.0.0', port=5000)
+        app.run(
+            debug=False,
+            host='0.0.0.0',
+            port=int(os.environ.get('PORT', 5000))
+        )
     except KeyboardInterrupt:
         print("\n\n🛑 Server stopped by user")
     except Exception as e:
