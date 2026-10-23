@@ -12,3 +12,4 @@ services:
         value: production
     healthCheckPath: /api/health
     autoDeploy: true
+

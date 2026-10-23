@@ -5,7 +5,7 @@ const config = {
   },
   production: {
     // Update this URL to your deployed backend service
-    apiBaseUrl: process.env.REACT_APP_API_URL || 'https://your-backend-service.herokuapp.com',
+    apiBaseUrl: process.env.REACT_APP_API_URL || 'http://localhost:5000',
   }
 };
 
@@ -19,3 +19,4 @@ export const apiBaseUrl = config[environment].apiBaseUrl;
 export const buildApiUrl = (endpoint) => {
   return `${apiBaseUrl}${endpoint}`;
 };
+

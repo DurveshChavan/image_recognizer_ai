@@ -36,3 +36,4 @@ echo "2. Deploy your backend to Render/Railway/Heroku"
 echo "3. Update the API URL with your backend service URL"
 echo ""
 echo "🔗 Check your deployment at the URL provided above"
+

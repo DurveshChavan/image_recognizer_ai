@@ -105,3 +105,4 @@ Your deployment is successful when:
 ---
 
 **🎉 Congratulations!** Once you complete this checklist, your AI Image Recognition app will be live on the internet!
+

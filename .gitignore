@@ -315,3 +315,6 @@ config_local.yaml
 
 # Keep .gitkeep files for empty directories
 !.gitkeep
+
+
+new.txt

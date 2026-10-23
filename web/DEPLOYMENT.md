@@ -88,3 +88,4 @@ image_recognizer_AI/
 2. Deploy backend to Render/Railway/Heroku
 3. Update environment variables
 4. Test the complete application
+

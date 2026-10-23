@@ -111,3 +111,4 @@ Your app includes a health check at `/api/health` that Render will use to monito
 3. Update frontend configuration
 4. Deploy frontend to Vercel
 5. Test the complete application
+
